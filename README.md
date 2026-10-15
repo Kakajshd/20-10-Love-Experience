@@ -68,3 +68,4 @@ Trong Cloudflare Pages, chọn framework **Vite**, lệnh build `npm run build`,
 ## Bằng chứng khảo sát
 
 Xem [`REPORT.md`](REPORT.md), ảnh trong `reference/` và ảnh so sánh/difference image trong `comparison/`.
+# 20-10-Love-Experience
