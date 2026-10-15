@@ -1,0 +1,17 @@
+{
+  "name": "tiny-20-10-reconstruction",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "node prepare-site.mjs",
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "node prepare-site.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1",
+    "vite": "^7.1.0"
+  }
+}

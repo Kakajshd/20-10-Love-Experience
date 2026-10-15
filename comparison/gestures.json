@@ -1,0 +1,38 @@
+[
+  {
+    "name": "reference",
+    "dragText": [
+      "tớ là Tiny"
+    ],
+    "hover": {
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "filter": "none"
+    },
+    "shopScroll": {
+      "before": {
+        "top": 0,
+        "height": 2370,
+        "client": 870
+      },
+      "after": 435
+    }
+  },
+  {
+    "name": "local",
+    "dragText": [
+      "tớ là Tiny"
+    ],
+    "hover": {
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "filter": "none"
+    },
+    "shopScroll": {
+      "before": {
+        "top": 0,
+        "height": 2370,
+        "client": 870
+      },
+      "after": 435
+    }
+  }
+]

@@ -1,0 +1,10 @@
+import { chromium } from 'playwright';
+import fs from 'node:fs/promises';
+const browser = await chromium.launch({ headless: true });
+const page = await browser.newPage();
+const response = await page.goto('https://20-10-vuive.kazvndc-edu.workers.dev/', { waitUntil: 'domcontentloaded' });
+if (!response?.ok()) throw new Error(`Reference HTTP ${response?.status()}`);
+const body = await response.body();
+await fs.writeFile('reference/original.html', body);
+console.log(`Saved ${body.length} bytes`);
+await browser.close();

@@ -1,0 +1,160 @@
+[
+  {
+    "viewport": [
+      1920,
+      1080
+    ],
+    "errors": [],
+    "failedRequests": [],
+    "title": "cảm ơn cậu đã\nở đây cùng Tiny ✦",
+    "panel": {
+      "left": 580,
+      "top": 475,
+      "right": 1340,
+      "bottom": 873
+    },
+    "layoutViewport": {
+      "innerWidth": 1920,
+      "sceneWidth": 1920,
+      "visualWidth": 1920
+    },
+    "links": [
+      {
+        "text": "TikTok\n@congabuon\n↗",
+        "href": "https://www.tiktok.com/@congabuon",
+        "visible": true
+      },
+      {
+        "text": "GitHub\nKakajshd\n↗",
+        "href": "https://github.com/Kakajshd",
+        "visible": true
+      }
+    ],
+    "oldAds": 0,
+    "oldBrand": false,
+    "horizontalOverflow": false,
+    "font": "\"Courier Prime\", monospace",
+    "eyesInEnding": true
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "errors": [],
+    "failedRequests": [],
+    "title": "cảm ơn cậu đã\nở đây cùng Tiny ✦",
+    "panel": {
+      "left": 303,
+      "top": 350,
+      "right": 1063,
+      "bottom": 748
+    },
+    "layoutViewport": {
+      "innerWidth": 1366,
+      "sceneWidth": 1366,
+      "visualWidth": 1366
+    },
+    "links": [
+      {
+        "text": "TikTok\n@congabuon\n↗",
+        "href": "https://www.tiktok.com/@congabuon",
+        "visible": true
+      },
+      {
+        "text": "GitHub\nKakajshd\n↗",
+        "href": "https://github.com/Kakajshd",
+        "visible": true
+      }
+    ],
+    "oldAds": 0,
+    "oldBrand": false,
+    "horizontalOverflow": false,
+    "font": "\"Courier Prime\", monospace",
+    "eyesInEnding": true
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "errors": [],
+    "failedRequests": [],
+    "title": "cảm ơn cậu đã\nở đây cùng Tiny ✦",
+    "panel": {
+      "left": 14,
+      "top": 262,
+      "right": 376,
+      "bottom": 709
+    },
+    "layoutViewport": {
+      "innerWidth": 402,
+      "sceneWidth": 402,
+      "visualWidth": 390
+    },
+    "links": [
+      {
+        "text": "TikTok\n@congabuon\n↗",
+        "href": "https://www.tiktok.com/@congabuon",
+        "visible": true
+      },
+      {
+        "text": "GitHub\nKakajshd\n↗",
+        "href": "https://github.com/Kakajshd",
+        "visible": true
+      }
+    ],
+    "oldAds": 0,
+    "oldBrand": false,
+    "horizontalOverflow": false,
+    "font": "\"Courier Prime\", monospace",
+    "eyesInEnding": true
+  },
+  {
+    "viewport": [
+      360,
+      800
+    ],
+    "errors": [],
+    "failedRequests": [],
+    "title": "cảm ơn cậu đã\nở đây cùng Tiny ✦",
+    "panel": {
+      "left": 14,
+      "top": 240,
+      "right": 346,
+      "bottom": 682
+    },
+    "layoutViewport": {
+      "innerWidth": 372,
+      "sceneWidth": 372,
+      "visualWidth": 360
+    },
+    "links": [
+      {
+        "text": "TikTok\n@congabuon\n↗",
+        "href": "https://www.tiktok.com/@congabuon",
+        "visible": true
+      },
+      {
+        "text": "GitHub\nKakajshd\n↗",
+        "href": "https://github.com/Kakajshd",
+        "visible": true
+      }
+    ],
+    "oldAds": 0,
+    "oldBrand": false,
+    "horizontalOverflow": false,
+    "font": "\"Courier Prime\", monospace",
+    "eyesInEnding": true
+  },
+  {
+    "customConfig": {
+      "message": "lời nhắn tùy chỉnh",
+      "titleSuffix": "của bạn ✦",
+      "tiktok": "https://www.tiktok.com/@tenmoi",
+      "tiktokLabel": "@tenmoi",
+      "github": "https://github.com/du-an-moi",
+      "githubLabel": "du-an-moi"
+    }
+  }
+]

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vite/
+.playwright-mcp/
+debug.log
+/reference/*.html
+!/reference/original.html
+/reference/*.png
+/comparison/**/*.png

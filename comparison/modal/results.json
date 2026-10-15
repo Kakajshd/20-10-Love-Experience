@@ -1,0 +1,30 @@
+[
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "modal": [
+      "show",
+      "show"
+    ],
+    "afterEscape": [
+      "",
+      ""
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "modal": [
+      "show",
+      "show"
+    ],
+    "afterEscape": [
+      "",
+      ""
+    ]
+  }
+]

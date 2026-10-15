@@ -1,0 +1,122 @@
+/* Personal ending. The original Tiny transition, stars, flowers and eyes stay active. */
+#tiny-shop-scene.creator-ending { min-height: 100dvh; }
+#tiny-shop-scene.creator-ending .shop-heading { top: 9%; }
+#tiny-shop-scene.creator-ending .shop-heading span { display: block; }
+#tiny-shop-scene.creator-ending .shop-heading #ending-title-suffix { display: inline; }
+#tiny-shop-scene.creator-ending .shop-heading em { color: #ffc5e4; }
+#tiny-shop-scene.creator-ending .shop-magic-vines { top: 30%; }
+
+#tiny-shop-scene .creator-panel {
+  position: relative;
+  z-index: 5;
+  box-sizing: border-box;
+  width: min(760px, calc(100% - 44px));
+  margin: clamp(350px, 44vh, 475px) auto 70px;
+  padding: clamp(25px, 3vw, 38px) clamp(20px, 4vw, 46px) 28px;
+  border: 1px solid rgba(155, 230, 250, .53);
+  border-radius: 30px;
+  text-align: center;
+  background: radial-gradient(ellipse at 18% 0%, rgba(31, 140, 177, .22), transparent 60%),
+              radial-gradient(ellipse at 100% 100%, rgba(211, 103, 190, .2), transparent 62%),
+              linear-gradient(145deg, rgba(15, 29, 60, .94), rgba(17, 17, 49, .96));
+  box-shadow: 0 24px 70px rgba(0, 0, 0, .36), inset 0 1px 0 rgba(255, 255, 255, .13), 0 0 42px rgba(79, 194, 231, .09);
+  opacity: 0;
+  transform: translateY(35px) scale(.97);
+  transition: opacity .95s ease .55s, transform 1.05s cubic-bezier(.2, .8, .2, 1) .55s;
+}
+#tiny-shop-scene.shop-visible .creator-panel { opacity: 1; transform: translateY(0) scale(1); }
+#tiny-shop-scene .creator-panel-star {
+  position: absolute;
+  left: 50%; top: -26px;
+  transform: translateX(-50%);
+  color: #fff0b9;
+  font-size: 38px;
+  text-shadow: 0 0 19px #ffd992, 0 0 32px #ffc5e4;
+  animation: creatorStarPulse 3.6s ease-in-out infinite alternate;
+}
+@keyframes creatorStarPulse { to { transform: translateX(-50%) scale(1.18) rotate(15deg); filter: brightness(1.35); } }
+#tiny-shop-scene .creator-kicker {
+  margin: 2px 0 9px;
+  color: #b4ecf7;
+  font-size: clamp(13px, 1.4vw, 16px);
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+#tiny-shop-scene .creator-panel h3 {
+  margin: 0;
+  color: #fff5ff;
+  font-size: clamp(24px, 3vw, 35px);
+  line-height: 1.3;
+  text-shadow: 0 0 22px rgba(205, 235, 255, .53);
+}
+#tiny-shop-scene .creator-description {
+  max-width: 590px;
+  margin: 16px auto 25px;
+  color: #d7e5f7;
+  font-size: clamp(15px, 1.7vw, 18px);
+  line-height: 1.52;
+}
+#tiny-shop-scene .creator-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; }
+#tiny-shop-scene .creator-link {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  min-height: 86px;
+  padding: 11px 17px;
+  border: 1px solid rgba(171, 230, 248, .55);
+  border-radius: 19px;
+  color: #f7fbff;
+  text-decoration: none;
+  text-align: left;
+  background: rgba(5, 15, 38, .62);
+  box-shadow: inset 0 1px rgba(255, 255, 255, .07), 0 8px 22px rgba(0, 0, 0, .14);
+  transition: transform .25s ease, background .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+#tiny-shop-scene .creator-link:hover,
+#tiny-shop-scene .creator-link:focus-visible {
+  transform: translateY(-5px);
+  border-color: #b7fbff;
+  background: rgba(16, 42, 69, .9);
+  box-shadow: 0 11px 26px rgba(69, 209, 237, .2), inset 0 1px rgba(255, 255, 255, .11);
+  outline: none;
+}
+#tiny-shop-scene .creator-github:hover,
+#tiny-shop-scene .creator-github:focus-visible { border-color: #ffc5e5; box-shadow: 0 11px 26px rgba(240, 139, 207, .19); }
+#tiny-shop-scene .creator-link-icon {
+  display: grid; place-items: center;
+  flex: 0 0 48px; width: 48px; height: 48px;
+  border-radius: 15px;
+  color: #b8fcff;
+  background: rgba(86, 225, 243, .13);
+  box-shadow: 0 0 16px rgba(89, 242, 251, .16);
+}
+#tiny-shop-scene .creator-github .creator-link-icon { color: #ffc8e6; background: rgba(247, 158, 218, .12); box-shadow: 0 0 16px rgba(247, 158, 218, .14); }
+#tiny-shop-scene .creator-link-icon svg { display: block; width: 27px; height: 27px; }
+#tiny-shop-scene .creator-link-copy { display: grid; gap: 4px; min-width: 0; margin-left: 14px; }
+#tiny-shop-scene .creator-link-copy strong { font-size: 19px; line-height: 1.1; }
+#tiny-shop-scene .creator-link-copy small { overflow: hidden; color: #bcd5e6; font-size: 15px; text-overflow: ellipsis; white-space: nowrap; }
+#tiny-shop-scene .creator-link-arrow { margin-left: auto; padding-left: 7px; color: #f9e7b8; font-size: 24px; }
+#tiny-shop-scene .creator-signoff { margin: 24px 0 0; color: #ffc6e2; font-size: clamp(14px, 1.5vw, 17px); line-height: 1.4; }
+
+@media (max-width: 700px) {
+  #tiny-shop-scene.creator-ending .shop-heading { left: 37%; right: 4%; top: 8%; font-size: clamp(17px, 4.35vw, 25px); }
+  #tiny-shop-scene.creator-ending .shop-magic-vines { top: 32%; width: 90px; opacity: .28; }
+  #tiny-shop-scene .creator-panel { width: calc(100% - 40px); margin: clamp(245px, 31vh, 290px) 0 25px 14px; padding: 23px 19px 21px; border-radius: 23px; }
+  #tiny-shop-scene .creator-panel-star { font-size: 30px; top: -21px; }
+  #tiny-shop-scene .creator-description { margin: 12px auto 18px; }
+  #tiny-shop-scene .creator-links { grid-template-columns: 1fr; gap: 11px; }
+  #tiny-shop-scene .creator-link { min-height: 68px; padding: 7px 13px; }
+  #tiny-shop-scene .creator-link-icon { flex-basis: 41px; width: 41px; height: 41px; border-radius: 12px; }
+  #tiny-shop-scene .creator-link-icon svg { width: 24px; height: 24px; }
+  #tiny-shop-scene .creator-link-copy strong { font-size: 17px; }
+  #tiny-shop-scene .creator-link-copy small { font-size: 14px; }
+  #tiny-shop-scene .creator-signoff { margin-top: 18px; }
+}
+@media (max-width: 380px) {
+  #tiny-shop-scene .creator-panel { margin-top: 240px; }
+  #tiny-shop-scene .creator-panel h3 { font-size: 23px; }
+  #tiny-shop-scene .creator-description { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #tiny-shop-scene .creator-panel-star { animation: none; }
+}

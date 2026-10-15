@@ -1,0 +1,419 @@
+[
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "label": "step-4",
+    "states": [
+      {
+        "visibleText": [
+          {
+            "id": "text-5",
+            "text": "à thì cũng sắp\n20/10 rồi"
+          }
+        ],
+        "active": [],
+        "audio": 13.4,
+        "shop": "",
+        "modal": ""
+      },
+      {
+        "visibleText": [
+          {
+            "id": "text-5",
+            "text": "à thì cũng sắp\n20/10 rồi"
+          }
+        ],
+        "active": [],
+        "audio": 13.4,
+        "shop": "",
+        "modal": ""
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "label": "step-7",
+    "states": [
+      {
+        "visibleText": [
+          {
+            "id": "text-8",
+            "text": "chúc cậu thật xinh đẹp"
+          }
+        ],
+        "active": [
+          "beauty-stage"
+        ],
+        "audio": 19.9,
+        "shop": "",
+        "modal": ""
+      },
+      {
+        "visibleText": [
+          {
+            "id": "text-8",
+            "text": "chúc cậu thật xinh đẹp"
+          }
+        ],
+        "active": [
+          "beauty-stage"
+        ],
+        "audio": 19.9,
+        "shop": "",
+        "modal": ""
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "label": "step-10",
+    "states": [
+      {
+        "visibleText": [],
+        "active": [],
+        "audio": 26.1,
+        "shop": "",
+        "modal": ""
+      },
+      {
+        "visibleText": [],
+        "active": [],
+        "audio": 26.2,
+        "shop": "",
+        "modal": ""
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "label": "step-13",
+    "states": [
+      {
+        "visibleText": [],
+        "active": [],
+        "audio": 31.5,
+        "shop": "",
+        "modal": ""
+      },
+      {
+        "visibleText": [],
+        "active": [],
+        "audio": 31.5,
+        "shop": "",
+        "modal": ""
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "label": "after-fuel",
+    "states": [
+      {
+        "visibleText": [],
+        "active": [
+          "tiny-reality-scene"
+        ],
+        "audio": 38,
+        "shop": "",
+        "modal": ""
+      },
+      {
+        "visibleText": [],
+        "active": [
+          "tiny-reality-scene"
+        ],
+        "audio": 38,
+        "shop": "",
+        "modal": ""
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "label": "end",
+    "states": [
+      {
+        "visibleText": [],
+        "active": [],
+        "audio": 41.2,
+        "shop": "shop-visible",
+        "modal": ""
+      },
+      {
+        "visibleText": [],
+        "active": [],
+        "audio": 41.2,
+        "shop": "shop-visible",
+        "modal": ""
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "label": "product-modal",
+    "states": [
+      {
+        "visibleText": [],
+        "active": [
+          "shop-product-modal"
+        ],
+        "audio": 42.1,
+        "shop": "shop-visible shop-modal-active",
+        "modal": "show"
+      },
+      {
+        "visibleText": [],
+        "active": [
+          "shop-product-modal"
+        ],
+        "audio": 42.1,
+        "shop": "shop-visible shop-modal-active",
+        "modal": "show"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "errors": [
+      [
+        "IndexSizeError: Failed to set the 'volume' property on 'HTMLMediaElement': The volume provided (-0.00197647) is outside the range [0, 1]."
+      ],
+      [
+        "IndexSizeError: Failed to set the 'volume' property on 'HTMLMediaElement': The volume provided (-0.00158118) is outside the range [0, 1]."
+      ]
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "label": "step-4",
+    "states": [
+      {
+        "visibleText": [
+          {
+            "id": "text-5",
+            "text": "à thì cũng sắp\n20/10 rồi"
+          }
+        ],
+        "active": [],
+        "audio": 13.1,
+        "shop": "",
+        "modal": ""
+      },
+      {
+        "visibleText": [
+          {
+            "id": "text-5",
+            "text": "à thì cũng sắp\n20/10 rồi"
+          }
+        ],
+        "active": [],
+        "audio": 13.1,
+        "shop": "",
+        "modal": ""
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "label": "step-7",
+    "states": [
+      {
+        "visibleText": [
+          {
+            "id": "text-8",
+            "text": "chúc cậu thật xinh đẹp"
+          }
+        ],
+        "active": [
+          "beauty-stage"
+        ],
+        "audio": 19.2,
+        "shop": "",
+        "modal": ""
+      },
+      {
+        "visibleText": [
+          {
+            "id": "text-8",
+            "text": "chúc cậu thật xinh đẹp"
+          }
+        ],
+        "active": [
+          "beauty-stage"
+        ],
+        "audio": 19.2,
+        "shop": "",
+        "modal": ""
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "label": "step-10",
+    "states": [
+      {
+        "visibleText": [
+          {
+            "id": "text-11",
+            "text": "nè cầm lấy đi"
+          }
+        ],
+        "active": [
+          "clover-stage"
+        ],
+        "audio": 24.9,
+        "shop": "",
+        "modal": ""
+      },
+      {
+        "visibleText": [],
+        "active": [],
+        "audio": 24.9,
+        "shop": "",
+        "modal": ""
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "label": "step-13",
+    "states": [
+      {
+        "visibleText": [],
+        "active": [],
+        "audio": 30.3,
+        "shop": "",
+        "modal": ""
+      },
+      {
+        "visibleText": [],
+        "active": [],
+        "audio": 30.3,
+        "shop": "",
+        "modal": ""
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "label": "after-fuel",
+    "states": [
+      {
+        "visibleText": [],
+        "active": [
+          "tiny-reality-scene"
+        ],
+        "audio": 36.2,
+        "shop": "",
+        "modal": ""
+      },
+      {
+        "visibleText": [],
+        "active": [
+          "tiny-reality-scene"
+        ],
+        "audio": 36.2,
+        "shop": "",
+        "modal": ""
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "label": "end",
+    "states": [
+      {
+        "visibleText": [],
+        "active": [],
+        "audio": 39,
+        "shop": "shop-visible",
+        "modal": ""
+      },
+      {
+        "visibleText": [],
+        "active": [],
+        "audio": 39,
+        "shop": "shop-visible",
+        "modal": ""
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "label": "product-modal",
+    "states": [
+      {
+        "visibleText": [],
+        "active": [
+          "shop-product-modal"
+        ],
+        "audio": 39.4,
+        "shop": "shop-visible shop-modal-active",
+        "modal": "show"
+      },
+      {
+        "visibleText": [],
+        "active": [
+          "shop-product-modal"
+        ],
+        "audio": 39.4,
+        "shop": "shop-visible shop-modal-active",
+        "modal": "show"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "errors": [
+      [],
+      []
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+import { chromium } from 'playwright';
+import fs from 'node:fs/promises';
+const browser=await chromium.launch({headless:true});
+const results=[];
+for(const [name,url] of [['reference','https://20-10-vuive.kazvndc-edu.workers.dev/'],['local','http://127.0.0.1:5173/']]){
+  const desktop=await browser.newPage({viewport:{width:1366,height:768}});
+  await desktop.goto(url);
+  await desktop.mouse.move(683,384);
+  await desktop.mouse.down();await desktop.mouse.move(750,430,{steps:8});await desktop.mouse.up();
+  await desktop.waitForTimeout(800);
+  const dragText=await desktop.locator('.text-layer.hien-thi').allInnerTexts();
+  await desktop.reload();
+  await desktop.evaluate(()=>document.querySelector('#tiny-shop-scene').classList.add('shop-visible'));
+  await desktop.waitForTimeout(2200);
+  await desktop.locator('.shop-product').first().hover();
+  const hover=await desktop.locator('.shop-product').first().evaluate(e=>({transform:getComputedStyle(e).transform,filter:getComputedStyle(e).filter}));
+  await desktop.close();
+  const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+  const mobile=await context.newPage();
+  await mobile.goto(url);
+  await mobile.evaluate(()=>document.querySelector('#tiny-shop-scene').classList.add('shop-visible'));
+  await mobile.waitForTimeout(2200);
+  const scene=mobile.locator('#tiny-shop-scene');
+  const before=await scene.evaluate(e=>({top:e.scrollTop,height:e.scrollHeight,client:e.clientHeight}));
+  const cdp=await context.newCDPSession(mobile);
+  await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:370,y:700}]});
+  for(let y=670;y>=250;y-=30)await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:370,y}]});
+  await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+  await mobile.waitForTimeout(500);
+  const after=await scene.evaluate(e=>e.scrollTop);
+  results.push({name,dragText,hover,shopScroll:{before,after}});
+  await context.close();
+}
+await browser.close();
+await fs.writeFile('comparison/gestures.json',JSON.stringify(results,null,2));
+console.log(JSON.stringify(results,null,2));

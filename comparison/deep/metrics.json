@@ -1,0 +1,114 @@
+[
+  {
+    "size": "1366x768",
+    "state": "step-4",
+    "width": 1366,
+    "height": 768,
+    "meanAbsoluteDifference": 0.08862373483637802,
+    "changedPixelRatio": 0.278842194363104
+  },
+  {
+    "size": "1366x768",
+    "state": "step-7",
+    "width": 1366,
+    "height": 768,
+    "meanAbsoluteDifference": 0.004472741415787073,
+    "changedPixelRatio": 0.013343971144460712
+  },
+  {
+    "size": "1366x768",
+    "state": "step-10",
+    "width": 1366,
+    "height": 768,
+    "meanAbsoluteDifference": 0.033914723466253266,
+    "changedPixelRatio": 0.09832540263543192
+  },
+  {
+    "size": "1366x768",
+    "state": "step-13",
+    "width": 1366,
+    "height": 768,
+    "meanAbsoluteDifference": 0.000037899086753621245,
+    "changedPixelRatio": 0.00009150805270863836
+  },
+  {
+    "size": "1366x768",
+    "state": "after-fuel",
+    "width": 1366,
+    "height": 768,
+    "meanAbsoluteDifference": 0.002715779327633119,
+    "changedPixelRatio": 0.008035550878477305
+  },
+  {
+    "size": "1366x768",
+    "state": "end",
+    "width": 1366,
+    "height": 768,
+    "meanAbsoluteDifference": 0.00023346390675189874,
+    "changedPixelRatio": 0.0002954947535383114
+  },
+  {
+    "size": "1366x768",
+    "state": "product-modal",
+    "width": 1366,
+    "height": 768,
+    "meanAbsoluteDifference": 0.024675445458808218,
+    "changedPixelRatio": 0.11045784529038555
+  },
+  {
+    "size": "390x844",
+    "state": "step-4",
+    "width": 390,
+    "height": 844,
+    "meanAbsoluteDifference": 0.08561283743051237,
+    "changedPixelRatio": 0.28423563008871067
+  },
+  {
+    "size": "390x844",
+    "state": "step-7",
+    "width": 390,
+    "height": 844,
+    "meanAbsoluteDifference": 0.002483310657272185,
+    "changedPixelRatio": 0.006003159557661927
+  },
+  {
+    "size": "390x844",
+    "state": "step-10",
+    "width": 390,
+    "height": 844,
+    "meanAbsoluteDifference": 0.03420488833926247,
+    "changedPixelRatio": 0.09566472232349009
+  },
+  {
+    "size": "390x844",
+    "state": "step-13",
+    "width": 390,
+    "height": 844,
+    "meanAbsoluteDifference": 0.000029538448830336203,
+    "changedPixelRatio": 0.0000030380362133916637
+  },
+  {
+    "size": "390x844",
+    "state": "after-fuel",
+    "width": 390,
+    "height": 844,
+    "meanAbsoluteDifference": 0.0024304766261833448,
+    "changedPixelRatio": 0.005930246688540528
+  },
+  {
+    "size": "390x844",
+    "state": "end",
+    "width": 390,
+    "height": 844,
+    "meanAbsoluteDifference": 0.00006479952535151866,
+    "changedPixelRatio": 0.0000030380362133916637
+  },
+  {
+    "size": "390x844",
+    "state": "product-modal",
+    "width": 390,
+    "height": 844,
+    "meanAbsoluteDifference": 0.13652787011025094,
+    "changedPixelRatio": 0.37042775549884555
+  }
+]

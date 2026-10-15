@@ -1,0 +1,34 @@
+[
+  {
+    "size": "1366x768",
+    "state": "shop",
+    "width": 1366,
+    "height": 768,
+    "meanAbsoluteDifference": 0.0008787090665939387,
+    "changedPixelRatio": 0.0019864873108833576
+  },
+  {
+    "size": "1366x768",
+    "state": "modal",
+    "width": 1366,
+    "height": 768,
+    "meanAbsoluteDifference": 0.0012338398074782215,
+    "changedPixelRatio": 0.0018292078452903857
+  },
+  {
+    "size": "390x844",
+    "state": "shop",
+    "width": 390,
+    "height": 844,
+    "meanAbsoluteDifference": 0.0003195736106246282,
+    "changedPixelRatio": 0.00038886863531413296
+  },
+  {
+    "size": "390x844",
+    "state": "modal",
+    "width": 390,
+    "height": 844,
+    "meanAbsoluteDifference": 0.0018745437981568453,
+    "changedPixelRatio": 0.003098796937659497
+  }
+]

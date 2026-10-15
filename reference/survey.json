@@ -1,0 +1,770 @@
+{
+  "desktop": [
+    {
+      "label": "start",
+      "visibleText": [
+        {
+          "id": "text-1",
+          "text": "này cậu gì ơi"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 0,
+        "paused": true,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        792
+      ]
+    },
+    {
+      "label": "ready",
+      "visibleText": [
+        {
+          "id": "text-1",
+          "text": "này cậu gì ơi"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 0,
+        "paused": true,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        792
+      ]
+    },
+    {
+      "label": "step-01",
+      "visibleText": [
+        {
+          "id": "text-2",
+          "text": "tớ là Tiny"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 1.157744,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        792
+      ]
+    },
+    {
+      "label": "step-02",
+      "visibleText": [
+        {
+          "id": "text-3",
+          "text": "Hôm nay tớ nhận lệnh từ Dr D là để..."
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 2.410765,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        792
+      ]
+    },
+    {
+      "label": "step-03",
+      "visibleText": [
+        {
+          "id": "text-3",
+          "text": "Hôm nay tớ nhận lệnh từ Dr D là để..."
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 4.21681,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        792
+      ]
+    },
+    {
+      "label": "step-04",
+      "visibleText": [
+        {
+          "id": "text-3",
+          "text": "Hôm nay tớ nhận lệnh từ Dr D là để..."
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 5.507564,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        792
+      ]
+    },
+    {
+      "label": "step-05",
+      "visibleText": [
+        {
+          "id": "text-3",
+          "text": "Hôm nay tớ nhận lệnh từ Dr D là để..."
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 6.766905,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        792
+      ]
+    },
+    {
+      "label": "step-06",
+      "visibleText": [
+        {
+          "id": "text-3",
+          "text": "Hôm nay tớ nhận lệnh từ Dr D là để..."
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 8.02615,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        792
+      ]
+    },
+    {
+      "label": "step-07",
+      "visibleText": [
+        {
+          "id": "text-3",
+          "text": "Hôm nay tớ nhận lệnh từ Dr D là để..."
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 9.277352,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        792
+      ]
+    },
+    {
+      "label": "step-08",
+      "visibleText": [
+        {
+          "id": "text-3",
+          "text": "Hôm nay tớ nhận lệnh từ Dr D là để..."
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 9.7,
+        "paused": true,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        792
+      ]
+    },
+    {
+      "label": "step-09",
+      "visibleText": [
+        {
+          "id": "text-4",
+          "text": "ui cậu đẹp quá"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 10.83038,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        792
+      ]
+    },
+    {
+      "label": "step-10",
+      "visibleText": [
+        {
+          "id": "text-5",
+          "text": "à thì cũng sắp\n20/10 rồi"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 12.149128,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        788
+      ]
+    },
+    {
+      "label": "step-11",
+      "visibleText": [],
+      "active": [],
+      "audio": {
+        "time": 13.557548,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        803
+      ]
+    },
+    {
+      "label": "step-12",
+      "visibleText": [
+        {
+          "id": "text-6",
+          "text": "nên là tớ muốn"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 14.809819,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        804
+      ]
+    },
+    {
+      "label": "step-13",
+      "visibleText": [
+        {
+          "id": "text-7",
+          "text": "chúc cậu thật nhiều sức khỏe"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 16.195008,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        804
+      ]
+    },
+    {
+      "label": "step-14",
+      "visibleText": [
+        {
+          "id": "text-8",
+          "text": "chúc cậu thật xinh đẹp"
+        }
+      ],
+      "active": [
+        "beauty-stage"
+      ],
+      "audio": {
+        "time": 17.791184,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        804
+      ]
+    },
+    {
+      "label": "step-15",
+      "visibleText": [
+        {
+          "id": "text-9",
+          "text": "và chúc cậu luôn giữ\nnụ cười trên môi"
+        }
+      ],
+      "active": [
+        "smile-stage"
+      ],
+      "audio": {
+        "time": 19.516099,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        804
+      ]
+    },
+    {
+      "label": "step-16",
+      "visibleText": [
+        {
+          "id": "text-10",
+          "text": "tớ tặng cậu ngọn cỏ 4 lá này"
+        }
+      ],
+      "active": [
+        "clover-stage"
+      ],
+      "audio": {
+        "time": 21.163834,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        1398,
+        804
+      ]
+    }
+  ],
+  "mobile": [
+    {
+      "label": "start",
+      "visibleText": [
+        {
+          "id": "text-1",
+          "text": "này cậu gì ơi"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 0,
+        "paused": true,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        870
+      ]
+    },
+    {
+      "label": "ready",
+      "visibleText": [
+        {
+          "id": "text-1",
+          "text": "này cậu gì ơi"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 9.7,
+        "paused": true,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        870
+      ]
+    },
+    {
+      "label": "step-01",
+      "visibleText": [
+        {
+          "id": "text-2",
+          "text": "tớ là Tiny"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 9.7,
+        "paused": true,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        870
+      ]
+    },
+    {
+      "label": "step-02",
+      "visibleText": [
+        {
+          "id": "text-3",
+          "text": "Hôm nay tớ nhận lệnh từ Dr D là để..."
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 9.7,
+        "paused": true,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        870
+      ]
+    },
+    {
+      "label": "step-03",
+      "visibleText": [
+        {
+          "id": "text-4",
+          "text": "ui cậu đẹp quá"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 11.355491,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        870
+      ]
+    },
+    {
+      "label": "step-04",
+      "visibleText": [
+        {
+          "id": "text-5",
+          "text": "à thì cũng sắp\n20/10 rồi"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 12.628149,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        870
+      ]
+    },
+    {
+      "label": "step-05",
+      "visibleText": [],
+      "active": [],
+      "audio": {
+        "time": 13.931473,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        878
+      ]
+    },
+    {
+      "label": "step-06",
+      "visibleText": [
+        {
+          "id": "text-6",
+          "text": "nên là tớ muốn"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 15.189827,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        880
+      ]
+    },
+    {
+      "label": "step-07",
+      "visibleText": [
+        {
+          "id": "text-7",
+          "text": "chúc cậu thật nhiều sức khỏe"
+        }
+      ],
+      "active": [],
+      "audio": {
+        "time": 16.492977,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        880
+      ]
+    },
+    {
+      "label": "step-08",
+      "visibleText": [
+        {
+          "id": "text-8",
+          "text": "chúc cậu thật xinh đẹp"
+        }
+      ],
+      "active": [
+        "beauty-stage"
+      ],
+      "audio": {
+        "time": 17.897683,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        880
+      ]
+    },
+    {
+      "label": "step-09",
+      "visibleText": [
+        {
+          "id": "text-9",
+          "text": "và chúc cậu luôn giữ\nnụ cười trên môi"
+        }
+      ],
+      "active": [
+        "smile-stage"
+      ],
+      "audio": {
+        "time": 19.345067,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        880
+      ]
+    },
+    {
+      "label": "step-10",
+      "visibleText": [
+        {
+          "id": "text-10",
+          "text": "tớ tặng cậu ngọn cỏ 4 lá này"
+        }
+      ],
+      "active": [
+        "clover-stage"
+      ],
+      "audio": {
+        "time": 20.732143,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        880
+      ]
+    },
+    {
+      "label": "step-11",
+      "visibleText": [
+        {
+          "id": "text-11",
+          "text": "nè cầm lấy đi"
+        }
+      ],
+      "active": [
+        "clover-stage"
+      ],
+      "audio": {
+        "time": 22.121911,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        880
+      ]
+    },
+    {
+      "label": "step-12",
+      "visibleText": [
+        {
+          "id": "text-12",
+          "text": "chúc cậu gặp được thật nhiều điều may mắn"
+        }
+      ],
+      "active": [
+        "luck-stage"
+      ],
+      "audio": {
+        "time": 23.901566,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        880
+      ]
+    },
+    {
+      "label": "step-13",
+      "visibleText": [
+        {
+          "id": "text-13",
+          "text": "liệu cậu có thể?"
+        }
+      ],
+      "active": [
+        "question-stage"
+      ],
+      "audio": {
+        "time": 25.357758,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [],
+      "size": [
+        402,
+        880
+      ]
+    },
+    {
+      "label": "step-14",
+      "visibleText": [],
+      "active": [],
+      "audio": {
+        "time": 26.699137,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [
+        {
+          "id": "share-fuel-button",
+          "text": "80%\nĐồng ý"
+        }
+      ],
+      "size": [
+        402,
+        880
+      ]
+    },
+    {
+      "label": "step-15",
+      "visibleText": [],
+      "active": [],
+      "audio": {
+        "time": 28.009943,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [
+        {
+          "id": "share-fuel-button",
+          "text": "80%\nĐồng ý"
+        }
+      ],
+      "size": [
+        402,
+        880
+      ]
+    },
+    {
+      "label": "step-16",
+      "visibleText": [],
+      "active": [],
+      "audio": {
+        "time": 29.314166,
+        "paused": false,
+        "duration": 114.587188,
+        "src": "data:audio/mpeg;base64,SUQzBAAAAAAAf1RYW"
+      },
+      "buttons": [
+        {
+          "id": "share-fuel-button",
+          "text": "80%\nĐồng ý"
+        }
+      ],
+      "size": [
+        402,
+        880
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "size": "1920x1080",
+    "state": "initial",
+    "width": 1920,
+    "height": 1080,
+    "meanAbsoluteDifference": 0,
+    "changedPixelRatio": 0
+  },
+  {
+    "size": "1920x1080",
+    "state": "first",
+    "width": 1920,
+    "height": 1080,
+    "meanAbsoluteDifference": 0,
+    "changedPixelRatio": 0
+  },
+  {
+    "size": "1366x768",
+    "state": "initial",
+    "width": 1366,
+    "height": 768,
+    "meanAbsoluteDifference": 0,
+    "changedPixelRatio": 0
+  },
+  {
+    "size": "1366x768",
+    "state": "first",
+    "width": 1366,
+    "height": 768,
+    "meanAbsoluteDifference": 0.00014661474033244337,
+    "changedPixelRatio": 0
+  },
+  {
+    "size": "390x844",
+    "state": "initial",
+    "width": 390,
+    "height": 844,
+    "meanAbsoluteDifference": 0,
+    "changedPixelRatio": 0
+  },
+  {
+    "size": "390x844",
+    "state": "first",
+    "width": 390,
+    "height": 844,
+    "meanAbsoluteDifference": 0,
+    "changedPixelRatio": 0
+  },
+  {
+    "size": "360x800",
+    "state": "initial",
+    "width": 360,
+    "height": 800,
+    "meanAbsoluteDifference": 0,
+    "changedPixelRatio": 0
+  },
+  {
+    "size": "360x800",
+    "state": "first",
+    "width": 360,
+    "height": 800,
+    "meanAbsoluteDifference": 0.00015202432824981845,
+    "changedPixelRatio": 0
+  }
+]
