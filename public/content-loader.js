@@ -21,6 +21,10 @@
   window.TINY_CONTENT = config;
   const name = typeof config.recipientName === 'string' ? config.recipientName.trim() : '';
   const wishes = config.greetings || {};
+  const speakerName = typeof wishes['text-2'] === 'string'
+    ? wishes['text-2'].trim().match(/^tớ là\s+(.+)$/i)?.[1].trim()
+    : '';
+  if (speakerName) document.title = document.title.replaceAll('Tiny', speakerName);
   for (let i = 1; i <= 13; i++) {
     const node = document.getElementById(`text-${i}`);
     if (!node) continue;
@@ -88,6 +92,10 @@
   }
   document.addEventListener('DOMContentLoaded', () => {
     const ending = config.ending || {};
+    if (speakerName && typeof ending.titleSuffix !== 'string') {
+      const suffix = document.getElementById('ending-title-suffix');
+      if (suffix) suffix.textContent = `cùng ${speakerName} ✦`;
+    }
     const textFields = {
       titleTop: 'ending-title-top',
       titleAccent: 'ending-title-accent',

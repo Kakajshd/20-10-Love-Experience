@@ -2,8 +2,8 @@
   "recipientName": "",
   "greetings": {
     "text-1": "này cậu gì ơi",
-    "text-2": "tớ là Tiny",
-    "text-3": "Hôm nay tớ nhận lệnh từ Dr D là để...",
+    "text-2": "tớ là Hưng",
+    "text-3": "Hôm nay tớ nhận lệnh từ Vũ trụ là để...",
     "text-4": "ui cậu đẹp quá",
     "text-5": "à thì cũng sắp 20/10 rồi",
     "text-6": "nên là tớ muốn",
@@ -21,29 +21,12 @@
     "thanks": "cảm ơn cậu nhiều",
     "button": "Đồng ý"
   },
-  "images": {
-    "twoPeople": "",
-    "womanDesktop": "",
-    "womanMobile": ""
-  },
+  "images": {},
   "music": "",
   "musicTiming": {
     "holdAt": 9.7,
     "fadeDuration": 1.35,
     "volume": 0.84
   },
-  "lyrics": null,
-  "ending": {
-    "titleTop": "cảm ơn cậu đã",
-    "titleAccent": "ở đây",
-    "titleSuffix": "cùng Tiny ✦",
-    "kicker": "một lời nhắn nhỏ",
-    "message": "câu chuyện chưa kết thúc đâu...",
-    "description": "Nếu cậu muốn gặp lại tớ, ghé qua một trong hai góc nhỏ này nhé.",
-    "tiktokLabel": "@congabuon",
-    "tiktokUrl": "https://www.tiktok.com/@congabuon",
-    "githubLabel": "Kakajshd",
-    "githubUrl": "https://github.com/Kakajshd",
-    "signoff": "hẹn gặp lại ở những câu chuyện tiếp theo ♡"
-  }
+  "lyrics": null
 }

@@ -46,6 +46,8 @@ Chỉnh [`public/content.json`](public/content.json), sau đó tải lại trang
 - `lyrics`: `null` để dùng lời hát gốc, `[]` để tắt chữ lời hát, hoặc một mảng `{ "time": số_giây, "text": "câu hát" }` để đồng bộ lời hát mới. Chữ lời hát chỉ xuất hiện ở cảnh nụ cười như bản gốc.
 - `ending`: nội dung lời kết và hai liên kết. Đổi `titleTop`, `titleAccent`, `titleSuffix`, `kicker`, `message`, `description`, `signoff` để sửa chữ; đổi `tiktokLabel`, `tiktokUrl`, `githubLabel`, `githubUrl` để sửa tên và đường dẫn. Chỉ dùng URL bắt đầu bằng `https://` hoặc `http://`.
 
+Tên ở tiêu đề cảnh cuối (`cùng Hưng ✦`) và tiêu đề tab được lấy tự động từ câu `greetings.text-2` nếu câu có dạng `tớ là Tên`. Muốn dùng chữ khác ở cảnh cuối, đặt `ending.titleSuffix` trong `public/content.json`.
+
 Ví dụ: để đổi các câu trong hai ảnh đầu và cảnh máy bay, sửa `text-2`, `text-3` trong `greetings`, rồi sửa `heading`, `question`, `button` trong `shareScene`.
 
 Đặt ảnh/nhạc tùy chỉnh trong `public/media/`. Các ảnh mặc định và bản nhạc mặc định đã được nhúng sẵn vào `index.html`.

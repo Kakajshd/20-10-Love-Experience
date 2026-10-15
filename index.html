@@ -31,7 +31,7 @@ window.TINY_PERF = (() => {
 </script>
 
     <meta charset="UTF-8">
-    <title>Sự thức giấc của Tiny - Ngày 20/10</title>
+    <title>Sự thức giấc của Hưng - Ngày 20/10</title>
     <style>/* latin-ext */
 @font-face {
   font-family: 'Courier Prime';
@@ -7294,6 +7294,10 @@ html.tiny-pc-beauty-v12 #uiverse-starfield #stars3 {
   window.TINY_CONTENT = config;
   const name = typeof config.recipientName === 'string' ? config.recipientName.trim() : '';
   const wishes = config.greetings || {};
+  const speakerName = typeof wishes['text-2'] === 'string'
+    ? wishes['text-2'].trim().match(/^tớ là\s+(.+)$/i)?.[1].trim()
+    : '';
+  if (speakerName) document.title = document.title.replaceAll('Tiny', speakerName);
   for (let i = 1; i <= 13; i++) {
     const node = document.getElementById(`text-${i}`);
     if (!node) continue;
@@ -7361,6 +7365,10 @@ html.tiny-pc-beauty-v12 #uiverse-starfield #stars3 {
   }
   document.addEventListener('DOMContentLoaded', () => {
     const ending = config.ending || {};
+    if (speakerName && typeof ending.titleSuffix !== 'string') {
+      const suffix = document.getElementById('ending-title-suffix');
+      if (suffix) suffix.textContent = `cùng ${speakerName} ✦`;
+    }
     const textFields = {
       titleTop: 'ending-title-top',
       titleAccent: 'ending-title-accent',
@@ -11087,7 +11095,7 @@ const SPRITES = [taoSprite(1.02, 140), taoSprite(.96, 136), taoSprite(1.08, 145)
 </svg></div>
  
   <div id="shop-tiny-host" aria-label="Đôi mắt Tiny"></div>
-  <h2 class="shop-heading"><span id="ending-title-top">cảm ơn cậu đã</span><span><em id="ending-title-accent">ở đây</em> <span id="ending-title-suffix">cùng Tiny ✦</span></span></h2>
+  <h2 class="shop-heading"><span id="ending-title-top">cảm ơn cậu đã</span><span><em id="ending-title-accent">ở đây</em> <span id="ending-title-suffix">cùng Hưng ✦</span></span></h2>
   <div class="shop-butterfly" id="shop-flying-butterfly" aria-hidden="true"><i class="bf-wing left"></i><i class="bf-wing right"></i><i class="bf-body"></i></div>
 
   <main class="creator-panel" aria-label="Kết nối với người tạo trang">

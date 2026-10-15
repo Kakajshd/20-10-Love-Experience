@@ -2,6 +2,14 @@ import fs from 'node:fs/promises';
 const original = await fs.readFile('reference/original.html', 'utf8');
 const endingCss = await fs.readFile('public/ending.css', 'utf8');
 const contentLoader = await fs.readFile('public/content-loader.js', 'utf8');
+const content = JSON.parse(await fs.readFile('public/content.json', 'utf8'));
+const speakerName = typeof content.greetings?.['text-2'] === 'string'
+  ? content.greetings['text-2'].trim().match(/^tớ là\s+(.+)$/i)?.[1].trim()
+  : '';
+const endingSuffix = typeof content.ending?.titleSuffix === 'string'
+  ? content.ending.titleSuffix
+  : `cùng ${speakerName || 'Tiny'} ✦`;
+const escapeHtml = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 let fontCss = await fs.readFile('public/fonts.css', 'utf8');
 for (const file of ['courier-prime-1.woff2', 'courier-prime-2.woff2']) {
   const font = await fs.readFile(`public/fonts/${file}`);
@@ -17,7 +25,7 @@ const originalDecor = original.slice(shopStart, shopDisplay);
 const personalDecor = originalDecor
   .replace('<section id="tiny-shop-scene"', '<section id="tiny-shop-scene" class="creator-ending"')
   .replace('aria-label="Gian hàng ủng hộ Tiny"', 'aria-label="Lời kết và liên kết cá nhân"')
-  .replace(/<h2 class="shop-heading">[\s\S]*?<\/h2>/, '<h2 class="shop-heading"><span id="ending-title-top">cảm ơn cậu đã</span><span><em id="ending-title-accent">ở đây</em> <span id="ending-title-suffix">cùng Tiny ✦</span></span></h2>');
+  .replace(/<h2 class="shop-heading">[\s\S]*?<\/h2>/, `<h2 class="shop-heading"><span id="ending-title-top">cảm ơn cậu đã</span><span><em id="ending-title-accent">ở đây</em> <span id="ending-title-suffix">${escapeHtml(endingSuffix)}</span></span></h2>`);
 const personalEnding = `${personalDecor}
   <main class="creator-panel" aria-label="Kết nối với người tạo trang">
     <span class="creator-panel-star" aria-hidden="true">✦</span>
@@ -39,6 +47,7 @@ const personalEnding = `${personalDecor}
 </section>`;
 const withPersonalEnding = original.slice(0, shopStart) + personalEnding + original.slice(shopEnd);
 const html = withPersonalEnding
+  .replace('<title>Sự thức giấc của Tiny - Ngày 20/10</title>', `<title>Sự thức giấc của ${escapeHtml(speakerName || 'Tiny')} - Ngày 20/10</title>`)
   .replace('<meta name="viewport" content="width=device-width, initial-scale=1.0">', '<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<link rel="icon" href="data:,">')
   .replace('<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">', `<style>${fontCss}</style>`)
   .replace('</head>', `<style>${endingCss}</style></head>`)
